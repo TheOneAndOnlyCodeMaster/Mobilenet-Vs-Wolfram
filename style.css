@@ -1,0 +1,10 @@
+#image_holder{
+    width: 20%;
+}
+body{
+    text-align: center !important;  
+    background: cyan;
+}
+.cheese{
+border: darkblue ridge 3px ;
+}

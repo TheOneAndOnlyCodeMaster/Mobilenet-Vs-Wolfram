@@ -1,0 +1,36 @@
+<html>
+    <head>    <title>MobileNet vs Wolfram</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" type="text/css" href="style.css"></head>
+    </head>
+    <body>
+    <ol>
+        <div class="test-image_results">
+        <li>
+            <div class="col-xs-12 col-md-6 cheese">
+                <h3>Test Image - </h3><img src="https://cdn.shopify.com/s/files/1/2785/3442/products/WAVE32HB.jpg?v=157487594" id="image_holder" class="img-responsive">
+            </div>
+            <div class="col-xs-12 col-md-6 cheese"> 
+            <h4> Output on Mobilenet </h4>
+            <br> <span id="MN_output"></span>
+            <hr>
+            <h4> Output on Microsoft Azure </h4>
+            <br> <span id="MA_output"></span>
+            <br><hr>
+            </div>>
+        </li>
+        <h2 > <span id="result"></span>is more accurate</h2>
+        </div>
+    </ol>
+    </body>
+</html>
